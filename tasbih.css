@@ -1,0 +1,95 @@
+.tasbih-section {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.fluid-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#head {
+    display: inline-block;
+    margin-top: -95px;
+    padding: 35px 20px;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #2980b9;
+    border-radius: 30%;
+    background-color: #fff;
+    color: #ff8398;
+    font-size: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#shelf {
+    width: 100%;
+    margin-top: 65px;
+    height: 60px;
+    background-color: #fff;
+    border: 2px solid #dfdfdf;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#line {
+    margin: 40px auto;
+    padding: 20px 0;
+    border-bottom: 2px solid #dfe0e0;
+    border-top: 2px solid #ff8398;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 40% 40% 0 0 / 60% 60% 40% 60%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#score {
+    font-family: 'Orbitron', sans-serif;
+    color: #2980ba;
+    text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.06);
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+#tasbe7 {
+    font-size: 36px;
+    color: #2980b9;
+    margin: 0;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+#circle {
+    background-color: #34495e;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 10px solid #2c3e50;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+#circle:active {
+    border-width: 13px;
+    transform: scale(0.98);
+}
+
+#circle p {
+    font-size: 32px;
+    color: #ecf0f1;
+    margin: 0;
+    user-select: none;
+}
