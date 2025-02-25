@@ -1,0 +1,41 @@
+.main-nav {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    transition: background 0.3s ease;
+}
+
+body.night-mode .main-nav {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main-nav li button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+body.night-mode .main-nav li button {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.main-nav li button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+body.night-mode .main-nav li button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
